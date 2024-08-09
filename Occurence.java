@@ -15,7 +15,7 @@ return count;
 }
 
   public static void main(String[] args) {
-    String s="choko is male  toto";
+    String s=" high temperature";
     Occurence obj=new Occurence();
   obj.occur(s);
     System.out.println("the ocuurence => "+obj.occur(s));
