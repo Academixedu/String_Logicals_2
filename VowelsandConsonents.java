@@ -21,7 +21,7 @@ void check(String s)
 
 public static void main(String[] args) 
 {
-    String s="My name is ratan";
+    String s="My name is sarvesh";
    VowelsandConsonents obj=new VowelsandConsonents();
    obj.check(s);
 }
