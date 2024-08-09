@@ -5,8 +5,7 @@ public class VowelsandConsonents{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your string:");
-        String str = sc.nextLine();
-
+        String str = sc.nextLine().toLowerCase();
         String vowels = "";
         String consonants = "";
 
