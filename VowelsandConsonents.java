@@ -8,14 +8,11 @@ public class VowelsandConsonents{
     public static void findVC(String input) {
         String vowels = "";
         String consonants = "";
-
-        // Convert the input string to lower case to make comparison easier
         input = input.toLowerCase();
 
         for (int i = 0; i < input.length(); i++) {
             char currentChar = input.charAt(i);
 
-            // Check if the character is a letter
             if (Character.isLetter(currentChar)) {
                 if (isVowel(currentChar)) {
                     vowels =vowels+ currentChar;
