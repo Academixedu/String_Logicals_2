@@ -4,4 +4,14 @@ public class FindNum{
   // output should be like
   // 1
   // 2
+  public static void main(String[] args) {
+    String str = "Java12Script";
+    
+    for (int i = 0; i < str.length(); i++) {
+        char ch = str.charAt(i);
+        if (Character.isDigit(ch)) {
+            System.out.println(ch);
+        }
+    }
+}
 }
