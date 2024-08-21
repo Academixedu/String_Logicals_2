@@ -10,13 +10,8 @@ String largest_word="";
 for(String i:a.split(" "))//she is beautiful
 {
     if(i.length()>large){
-
-        large=i.length();
-        largest_word=i;
-
-    }
-
-
+large=i.length();
+        largest_word=i;}
 }
 
 System.out.println(largest_word);
