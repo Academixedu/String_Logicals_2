@@ -14,8 +14,7 @@ public class RemoveDuplicates{
         char ch2 = str.charAt(j);
 
         if(ch1 == ch2){
-          String newStr = str.replace("ch1", "");
-          System.out.println(newStr);
+          
         }
       }
   }
