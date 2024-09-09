@@ -37,7 +37,7 @@ class GFG
     
     public static void main(String[] args)
     {
-        char str[] = "geeksforgeeks".toCharArray();
+        char str[] = "Hello World".toCharArray();
         int n = str.length;
         System.out.println(removeDuplicate(str, n));
     }
