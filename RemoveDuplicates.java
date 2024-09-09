@@ -34,7 +34,7 @@ class GFG
         return String.valueOf(Arrays.copyOf(str, index));
     }
 
-    // Driver code
+    
     public static void main(String[] args)
     {
         char str[] = "geeksforgeeks".toCharArray();
