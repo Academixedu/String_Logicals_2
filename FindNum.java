@@ -4,4 +4,19 @@ public class FindNum{
   // output should be like
   // 1
   // 2
+
+    public static void main(String[] args) {
+  
+        String s = "java125cript";
+
+        for (int i = 0; i < s.length(); i++) {
+            char currentChar = s.charAt(i);
+
+           if (Character.isDigit(currentChar)) {
+                System.out.println(currentChar);
+            }
+        }
+    }
 }
+
+
